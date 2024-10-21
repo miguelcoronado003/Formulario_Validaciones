@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+#mensaje {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Estilo para los mensajes de validación */
+#mensaje.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+#mensaje.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
